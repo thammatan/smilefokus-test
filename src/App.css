@@ -1,0 +1,50 @@
+@import '~antd/dist/antd.css';
+
+
+#my-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#my-table td, #my-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#my-table tr{
+  font-weight: bold;
+}
+#my-table tr:nth-child(even){
+  background-color: #E8E8E8;
+
+}
+
+
+
+#my-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #808080;
+  color: white;
+}
+
+#my-table .footer th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: white;
+  color: orange;
+}
+#my-table .footer td {
+  border: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: white;
+  color: orange;
+}
+#my-button{
+  background-color: orange;
+  color: white;
+}
